@@ -13,7 +13,7 @@
  - Lash Care 
 
  ## Wireframe of Application
-![](./Untitled.pdf)
+![Wireframe](/Untitled.pdf)
 
 ## Libraries/ Frameworks
 - React
