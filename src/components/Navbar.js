@@ -23,6 +23,11 @@ class Navbar extends Component {
               Lashes
             </Link>
           </li>
+          <li className="nav-item ml-5">
+            <Link to="/howto" className="nav-link">
+              How To
+            </Link>
+          </li>
         </ul>
         <Link to="/cart" className="ml-auto">
           <ButtonContainer>

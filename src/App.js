@@ -8,6 +8,7 @@ import Cart from "./components/Cart/Cart";
 import Default from "./components/Default";
 import Modal from "./components/Modal";
 import Home from "./components/Home";
+import HowTo from "./components/HowTo";
 import About from "./components/About";
 
 
@@ -21,6 +22,7 @@ class App extends Component {
           <Route path="/products" component={ProductList} />
           <Route path="/details" component={Details} />
           <Route path="/about" component={About} />
+          <Route path="/howto" component={HowTo} />
           <Route path="/cart" component={Cart} />
           <Route component={Default} />
         </Switch>

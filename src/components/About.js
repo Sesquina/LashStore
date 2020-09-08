@@ -1,5 +1,9 @@
 import React from "react";
+import lash from "./img/lash.jpeg";
+
 import "../../src/components/style/about.css";
+
+
 
 function About() {
   return (
@@ -28,6 +32,7 @@ function About() {
                 provide the highest quality mink lashes, at affordable prices to
                 women all around the world.
               </p>
+              <img src={lash} alt="lash"></img>
             </div>
           </div>
         </div>
