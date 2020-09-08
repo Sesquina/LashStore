@@ -1,0 +1,13 @@
+#about-main {
+  font-size: 20px;
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+#demobox {
+  background-color: #f2e0e9;
+  padding: 10px;
+  border: 1px solid #fbc8f3;
+}
