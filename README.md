@@ -13,7 +13,7 @@
  - Lash Care 
 
  ## Wireframe of Application
-![Wireframe](/Untitled.pdf)
+![alt text](https://raw.githubusercontent.com/sesquina/sesquina.github.io/master/public/assets/Wireframe.png "Last Store Ecommerce Website Wireframe")
 
 ## Libraries/ Frameworks
 - React
