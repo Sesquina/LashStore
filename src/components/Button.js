@@ -6,8 +6,8 @@ export const ButtonContainer = styled.button`
   background: transparent;
   border: 0.5rem solid var (--lightBlue);
   border-color: ${(props) =>
-    props.cart ? "var(--mainYellow)" : "var (--lightBlue)"};
-  color: ${(prop) => (prop.cart ? "var(--mainYellow)" : "var(--lightBlue)")};
+    props.cart ? "var(--mainPink)" : "var (--lightBlue)"};
+  color: ${(prop) => (prop.cart ? "var(--mainPink)" : "var(--lightBlue)")};
   border-radius: 0.5rem;
   padding: 0.2rem 0.5rem;
   cursor: pointer;
@@ -15,8 +15,8 @@ export const ButtonContainer = styled.button`
   transition: all 0.5s ease-in-out;
   &:hover {
     background: ${(prop) =>
-      prop.cart ? "var(--mainYellow)" : "var(--lightBlue)"};
-    color: var(--mainBlue);
+      prop.cart ? "var(--mainPink)" : "var(--lightBlue)"};
+    color: var(--mainPurple);
   }
   &:focus {
     outline: none;

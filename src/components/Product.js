@@ -97,7 +97,7 @@ const ProductWrapper = styled.div`
     bottom: 0;
     right: 0;
     padding: 0.2rem 0.4rem;
-    background: var(--mainYellow);
+    background: var(--mainPink);
     border: none;
     color: var(--mainWhite);
     font-size: 1.4rem;
@@ -110,7 +110,7 @@ const ProductWrapper = styled.div`
   }
 
   .cart-btn:hover {
-    color: var(--mainBlue);
+    color: var(--mainPurple);
     cursor: pointer;
   }
 `;

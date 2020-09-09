@@ -17,7 +17,7 @@ export default class Details extends Component {
             inCart,
           } = value.storeProducts;
           return (
-            <div className="container py-5">
+            <div className="container py-5" id="demobox">
               {/* title */}
               <div className="row">
                 <div className="col-10 mx-auto text-center text-slanted text-blue my-5">
@@ -42,7 +42,7 @@ export default class Details extends Component {
                     {" "}
                     Product Info :{" "}
                   </p>
-                  <p className="text-muted lead">{info}</p>
+                  <p className="font-weight-bold">{info}</p>
 
                   <div>
                     <Link to="/products">
